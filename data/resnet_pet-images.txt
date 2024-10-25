@@ -1,0 +1,44 @@
+
+Prints 10 filenames from folder pet_images/
+ 1 file: German_shepherd_dog_04890.jpg
+ 2 file:            Rabbit_002.jpg
+ 3 file:          Beagle_01125.jpg
+ 4 file:      Great_dane_05320.jpg
+ 5 file:         polar_bear_04.jpg
+ 6 file:                cat_02.jpg
+ 7 file:         Basenji_00974.jpg
+ 8 file: Golden_retriever_05223.jpg
+ 9 file:  Boston_terrier_02259.jpg
+10 file: Golden_retriever_05195.jpg
+
+Model used: resnet
+
+Number of Images: 40 
+Number of Dog Images: 30 
+Number of "Not-a" Dog Images: 10
+pct_match: 82.5
+pct_correct_dogs: 100.0
+pct_correct_breed: 90.0
+pct_correct_notdogs: 90.0
+
+INCORRECT Dog/NOT Dog Assignments:
+
+MISCLASSIFIED DOGS: 
+ Pet Image Label?: cat 
+ Classifier Label?: norwegian elkhound, elkhound
+
+INCORRECT Dog Breed Assignment:
+
+MISCLASSIFIED BREEDS: 
+ Pet Image Label?: beagle 
+ Classifier Label?: walker hound, walker foxhound
+
+MISCLASSIFIED BREEDS: 
+ Pet Image Label?: golden retriever 
+ Classifier Label?: leonberg
+
+MISCLASSIFIED BREEDS: 
+ Pet Image Label?: great pyrenees 
+ Classifier Label?: kuvasz
+
+** Total Elapsed Runtime: 0:0:29
